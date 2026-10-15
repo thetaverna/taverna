@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Taverna dos Sinos Mudos</title>
+<meta name="description" content="Rede social RPG medieval gótica em pixel art.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Press+Start+2P&family=VT323&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="hdr px">
+    <img class="bell" src="assets/icons/bell.png" alt="Sino dourado">
+    <div><h1>A TAVERNA DOS SINOS MUDOS</h1><p>CONVERSE • FAÇA AMIGOS • SUBA DE NÍVEL</p><small>Uma rede social RPG para viajantes como você</small></div>
+  </header>
+  <div class="bar2"><nav id="nav" class="px" aria-label="Menu principal"></nav><div id="ucard" class="px"></div></div>
+  <div id="notifs"></div>
+  <main id="view"></main>
+  <section id="game-section" class="px" hidden>
+    <div class="gh"><b>🏰 TAVERNA DOS SINOS MUDOS</b><small>Setas ou WASD para andar · toque na tela para ir até lá · E para interagir</small></div>
+    <div class="gwrap">
+      <canvas id="game" width="640" height="416" aria-label="Cenário da taverna"></canvas>
+      <button id="gprompt" class="btn" hidden></button>
+      <div id="gdlg" class="px" hidden></div>
+      <div id="dpad"><button data-d="up" aria-label="Cima">▲</button><button data-d="left" aria-label="Esquerda">◀</button><button data-d="act" aria-label="Interagir">E</button><button data-d="right" aria-label="Direita">▶</button><button data-d="down" aria-label="Baixo">▼</button></div>
+    </div>
+    <div id="gside">
+      <div><h4>👥 ONLINE (<span id="gcount">0</span>)</h4><div id="gonline"></div></div>
+      <div><h4>💬 CHAT DA TAVERNA <span id="grt"></span></h4><div id="gchat"></div><div class="tools"><input id="gci" maxlength="140" placeholder="Digite sua mensagem..." style="flex:1"><button class="btn red" id="gcs">ENVIAR</button></div></div>
+    </div>
+  </section>
+  <footer>— A TAVERNA DOS SINOS MUDOS —</footer>
+</div>
+<div id="toast" role="status"></div>
+<script src="script.js"></script>
+<script src="game.js"></script>
+<script src="items.js"></script>
+<script src="character.js"></script>
+<script src="api.js"></script>
+<script src="realtime.js"></script>
+</body>
+</html>

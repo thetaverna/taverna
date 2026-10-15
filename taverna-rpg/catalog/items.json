@@ -1,0 +1,2558 @@
+[
+ {
+  "id": "espada_ferro",
+  "name": "Espada de Ferro",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 5,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "espada_ferro",
+  "look": {
+   "t": "sword",
+   "c1": "#b0b0b0",
+   "c2": "#d0d0d0"
+  },
+  "starter": true
+ },
+ {
+  "id": "espada_aco",
+  "name": "Espada de Aço",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 65,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "espada_aco",
+  "look": {
+   "t": "sword",
+   "c1": "#b09090",
+   "c2": "#907070"
+  },
+  "starter": false
+ },
+ {
+  "id": "espada_prata",
+  "name": "Espada de Prata",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 80,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "espada_prata",
+  "look": {
+   "t": "sword",
+   "c1": "#305090",
+   "c2": "#5070b0"
+  },
+  "starter": false
+ },
+ {
+  "id": "espada_ouro",
+  "name": "Espada de Ouro",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 95,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 7,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "espada_ouro",
+  "look": {
+   "t": "sword",
+   "c1": "#703010",
+   "c2": "#d09030"
+  },
+  "starter": false
+ },
+ {
+  "id": "espada_rara",
+  "name": "Lâmina Gélida",
+  "slot": "weapon",
+  "rarity": "raro",
+  "price": 200,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 10,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "espada_rara",
+  "look": {
+   "t": "sword",
+   "c1": "#1030b0",
+   "c2": "#103090"
+  },
+  "starter": false
+ },
+ {
+  "id": "espada_epica",
+  "name": "Lâmina Rúnica",
+  "slot": "weapon",
+  "rarity": "épico",
+  "price": 600,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 15,
+   "def": 0,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "espada_epica",
+  "look": {
+   "t": "sword",
+   "c1": "#501070",
+   "c2": "#701090"
+  },
+  "starter": false
+ },
+ {
+  "id": "espada_lendaria",
+  "name": "Lâmina Flamejante",
+  "slot": "weapon",
+  "rarity": "lendário",
+  "price": 1500,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 25,
+   "def": 0,
+   "vit": 5,
+   "mana": 10
+  },
+  "icon": "espada_lendaria",
+  "look": {
+   "t": "sword",
+   "c1": "#901010",
+   "c2": "#b01010"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_ferro",
+  "name": "Machado de Ferro",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 5,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "machado_ferro",
+  "look": {
+   "t": "axe",
+   "c1": "#303050",
+   "c2": "#505070"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_aco",
+  "name": "Machado de Aço",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 65,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "machado_aco",
+  "look": {
+   "t": "axe",
+   "c1": "#505070",
+   "c2": "#303050"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_prata",
+  "name": "Machado de Prata",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 80,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "machado_prata",
+  "look": {
+   "t": "axe",
+   "c1": "#703010",
+   "c2": "#503030"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_ouro",
+  "name": "Machado de Ouro",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 95,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 7,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "machado_ouro",
+  "look": {
+   "t": "axe",
+   "c1": "#703010",
+   "c2": "#905010"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_raro",
+  "name": "Machado Glacial",
+  "slot": "weapon",
+  "rarity": "raro",
+  "price": 200,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 10,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "machado_raro",
+  "look": {
+   "t": "axe",
+   "c1": "#1090f0",
+   "c2": "#1070d0"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_epico",
+  "name": "Machado Arcano",
+  "slot": "weapon",
+  "rarity": "épico",
+  "price": 600,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 15,
+   "def": 0,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "machado_epico",
+  "look": {
+   "t": "axe",
+   "c1": "#501090",
+   "c2": "#7010b0"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_lendario",
+  "name": "Machado Infernal",
+  "slot": "weapon",
+  "rarity": "lendário",
+  "price": 1500,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 25,
+   "def": 0,
+   "vit": 5,
+   "mana": 10
+  },
+  "icon": "machado_lendario",
+  "look": {
+   "t": "axe",
+   "c1": "#d03010",
+   "c2": "#b03010"
+  },
+  "starter": false
+ },
+ {
+  "id": "lanca_ferro",
+  "name": "Lança de Ferro",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 5,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "lanca_ferro",
+  "look": {
+   "t": "spear",
+   "c1": "#503030",
+   "c2": "#b07050"
+  },
+  "starter": false
+ },
+ {
+  "id": "lanca_aco",
+  "name": "Lança de Aço",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 65,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "lanca_aco",
+  "look": {
+   "t": "spear",
+   "c1": "#505050",
+   "c2": "#303050"
+  },
+  "starter": false
+ },
+ {
+  "id": "lanca_prata",
+  "name": "Lança de Prata",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 80,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "lanca_prata",
+  "look": {
+   "t": "spear",
+   "c1": "#505050",
+   "c2": "#303050"
+  },
+  "starter": false
+ },
+ {
+  "id": "lanca_ouro",
+  "name": "Lança de Ouro",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 95,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 7,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "lanca_ouro",
+  "look": {
+   "t": "spear",
+   "c1": "#703010",
+   "c2": "#f0d050"
+  },
+  "starter": false
+ },
+ {
+  "id": "lanca_raro",
+  "name": "Lança Gélida",
+  "slot": "weapon",
+  "rarity": "raro",
+  "price": 200,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 10,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "lanca_raro",
+  "look": {
+   "t": "spear",
+   "c1": "#1050d0",
+   "c2": "#1030d0"
+  },
+  "starter": false
+ },
+ {
+  "id": "lanca_epico",
+  "name": "Lança Arcana",
+  "slot": "weapon",
+  "rarity": "épico",
+  "price": 600,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 15,
+   "def": 0,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "lanca_epico",
+  "look": {
+   "t": "spear",
+   "c1": "#501070",
+   "c2": "#701090"
+  },
+  "starter": false
+ },
+ {
+  "id": "lanca_lendario",
+  "name": "Lança Infernal",
+  "slot": "weapon",
+  "rarity": "lendário",
+  "price": 1500,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 25,
+   "def": 0,
+   "vit": 5,
+   "mana": 10
+  },
+  "icon": "lanca_lendario",
+  "look": {
+   "t": "spear",
+   "c1": "#703010",
+   "c2": "#903010"
+  },
+  "starter": false
+ },
+ {
+  "id": "arco_madeira",
+  "name": "Arco de Madeira",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 5,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "arco_madeira",
+  "look": {
+   "t": "bow",
+   "c1": "#703030",
+   "c2": "#905030"
+  },
+  "starter": false
+ },
+ {
+  "id": "arco_aco",
+  "name": "Arco de Aço",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 65,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "arco_aco",
+  "look": {
+   "t": "bow",
+   "c1": "#505050",
+   "c2": "#303030"
+  },
+  "starter": false
+ },
+ {
+  "id": "arco_elfo",
+  "name": "Arco Élfico Verde",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 80,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 6,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "arco_elfo",
+  "look": {
+   "t": "bow",
+   "c1": "#30b070",
+   "c2": "#107050"
+  },
+  "starter": false
+ },
+ {
+  "id": "arco_elfico",
+  "name": "Arco Real Élfico",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 95,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 7,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "arco_elfico",
+  "look": {
+   "t": "bow",
+   "c1": "#f0d050",
+   "c2": "#703010"
+  },
+  "starter": false
+ },
+ {
+  "id": "arco_raro",
+  "name": "Arco Glacial",
+  "slot": "weapon",
+  "rarity": "raro",
+  "price": 200,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 10,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "arco_raro",
+  "look": {
+   "t": "bow",
+   "c1": "#1050b0",
+   "c2": "#105090"
+  },
+  "starter": false
+ },
+ {
+  "id": "arco_epico",
+  "name": "Arco Arcano",
+  "slot": "weapon",
+  "rarity": "épico",
+  "price": 600,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 15,
+   "def": 0,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "arco_epico",
+  "look": {
+   "t": "bow",
+   "c1": "#501070",
+   "c2": "#701090"
+  },
+  "starter": false
+ },
+ {
+  "id": "arco_lendario",
+  "name": "Arco Solar",
+  "slot": "weapon",
+  "rarity": "lendário",
+  "price": 1500,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 25,
+   "def": 0,
+   "vit": 5,
+   "mana": 10
+  },
+  "icon": "arco_lendario",
+  "look": {
+   "t": "bow",
+   "c1": "#703010",
+   "c2": "#903010"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_madeira",
+  "name": "Escudo de Madeira",
+  "slot": "offhand",
+  "rarity": "comum",
+  "price": 40,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "escudo_madeira",
+  "look": {
+   "t": "shield",
+   "c1": "#703030",
+   "c2": "#905030"
+  },
+  "starter": true
+ },
+ {
+  "id": "escudo_ferro",
+  "name": "Escudo de Ferro",
+  "slot": "offhand",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 6,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "escudo_ferro",
+  "look": {
+   "t": "shield",
+   "c1": "#303050",
+   "c2": "#505050"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_aco",
+  "name": "Escudo de Aço",
+  "slot": "offhand",
+  "rarity": "comum",
+  "price": 65,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 6,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "escudo_aco",
+  "look": {
+   "t": "shield",
+   "c1": "#505070",
+   "c2": "#303050"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_prata",
+  "name": "Escudo de Prata",
+  "slot": "offhand",
+  "rarity": "comum",
+  "price": 75,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 7,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "escudo_prata",
+  "look": {
+   "t": "shield",
+   "c1": "#505050",
+   "c2": "#707070"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_ouro",
+  "name": "Escudo de Ouro",
+  "slot": "offhand",
+  "rarity": "comum",
+  "price": 90,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 8,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "escudo_ouro",
+  "look": {
+   "t": "shield",
+   "c1": "#703010",
+   "c2": "#905010"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_raro",
+  "name": "Escudo Safira",
+  "slot": "offhand",
+  "rarity": "raro",
+  "price": 160,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 0,
+   "def": 10,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "escudo_raro",
+  "look": {
+   "t": "shield",
+   "c1": "#103090",
+   "c2": "#103070"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_epico",
+  "name": "Escudo Arcano",
+  "slot": "offhand",
+  "rarity": "épico",
+  "price": 480,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 0,
+   "def": 15,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "escudo_epico",
+  "look": {
+   "t": "shield",
+   "c1": "#301070",
+   "c2": "#501090"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_lendario",
+  "name": "Escudo Carmesim",
+  "slot": "offhand",
+  "rarity": "lendário",
+  "price": 1200,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 0,
+   "def": 25,
+   "vit": 15,
+   "mana": 0
+  },
+  "icon": "escudo_lendario",
+  "look": {
+   "t": "shield",
+   "c1": "#901010",
+   "c2": "#b01010"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_couro",
+  "name": "Armadura de Couro",
+  "slot": "body",
+  "rarity": "comum",
+  "price": 45,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 4,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "armadura_couro",
+  "look": {
+   "t": "leather",
+   "c1": "#703030",
+   "c2": "#503030"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_ferro",
+  "name": "Armadura de Ferro",
+  "slot": "body",
+  "rarity": "comum",
+  "price": 60,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 12,
+   "mana": 0
+  },
+  "icon": "armadura_ferro",
+  "look": {
+   "t": "plate",
+   "c1": "#303050",
+   "c2": "#505070"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_aco",
+  "name": "Armadura de Aço",
+  "slot": "body",
+  "rarity": "comum",
+  "price": 70,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 13,
+   "mana": 0
+  },
+  "icon": "armadura_aco",
+  "look": {
+   "t": "plate",
+   "c1": "#303050",
+   "c2": "#505070"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_prata",
+  "name": "Armadura de Prata",
+  "slot": "body",
+  "rarity": "comum",
+  "price": 85,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 6,
+   "vit": 14,
+   "mana": 0
+  },
+  "icon": "armadura_prata",
+  "look": {
+   "t": "plate",
+   "c1": "#303050",
+   "c2": "#505050"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_ouro",
+  "name": "Armadura de Ouro",
+  "slot": "body",
+  "rarity": "comum",
+  "price": 100,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 6,
+   "vit": 16,
+   "mana": 0
+  },
+  "icon": "armadura_ouro",
+  "look": {
+   "t": "plate",
+   "c1": "#905010",
+   "c2": "#703010"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_raro",
+  "name": "Armadura Safira",
+  "slot": "body",
+  "rarity": "raro",
+  "price": 180,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 0,
+   "def": 8,
+   "vit": 20,
+   "mana": 0
+  },
+  "icon": "armadura_raro",
+  "look": {
+   "t": "plate",
+   "c1": "#103070",
+   "c2": "#105090"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_epico",
+  "name": "Armadura Arcana",
+  "slot": "body",
+  "rarity": "épico",
+  "price": 540,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 0,
+   "def": 12,
+   "vit": 35,
+   "mana": 0
+  },
+  "icon": "armadura_epico",
+  "look": {
+   "t": "plate",
+   "c1": "#501070",
+   "c2": "#301070"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_lendario",
+  "name": "Armadura Sombria",
+  "slot": "body",
+  "rarity": "lendário",
+  "price": 1350,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 0,
+   "def": 20,
+   "vit": 60,
+   "mana": 0
+  },
+  "icon": "armadura_lendario",
+  "look": {
+   "t": "plate",
+   "c1": "#503030",
+   "c2": "#903030"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_couro",
+  "name": "Capacete de Couro",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "capacete_couro",
+  "look": {
+   "t": "helm",
+   "c1": "#703030",
+   "c2": "#905030"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_ferro",
+  "name": "Capacete de Ferro",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 40,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 6,
+   "mana": 0
+  },
+  "icon": "capacete_ferro",
+  "look": {
+   "t": "helm",
+   "c1": "#505050",
+   "c2": "#707070"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_aco",
+  "name": "Capacete de Aço",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 3,
+   "vit": 6,
+   "mana": 0
+  },
+  "icon": "capacete_aco",
+  "look": {
+   "t": "helm",
+   "c1": "#303050",
+   "c2": "#707090"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_prata",
+  "name": "Capacete de Prata",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 55,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 3,
+   "vit": 7,
+   "mana": 0
+  },
+  "icon": "capacete_prata",
+  "look": {
+   "t": "helm",
+   "c1": "#503030",
+   "c2": "#905030"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_ouro",
+  "name": "Capacete de Ouro",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 65,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 3,
+   "vit": 8,
+   "mana": 0
+  },
+  "icon": "capacete_ouro",
+  "look": {
+   "t": "helm",
+   "c1": "#703010",
+   "c2": "#b07030"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_raro",
+  "name": "Capacete Safira",
+  "slot": "head",
+  "rarity": "raro",
+  "price": 120,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "capacete_raro",
+  "look": {
+   "t": "helm",
+   "c1": "#103090",
+   "c2": "#1050b0"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_epico",
+  "name": "Capacete Arcano",
+  "slot": "head",
+  "rarity": "épico",
+  "price": 360,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 0,
+   "def": 8,
+   "vit": 15,
+   "mana": 0
+  },
+  "icon": "capacete_epico",
+  "look": {
+   "t": "helm",
+   "c1": "#501090",
+   "c2": "#7010b0"
+  },
+  "starter": false
+ },
+ {
+  "id": "capacete_lendario",
+  "name": "Capacete Demoníaco",
+  "slot": "head",
+  "rarity": "lendário",
+  "price": 900,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 0,
+   "def": 12,
+   "vit": 25,
+   "mana": 0
+  },
+  "icon": "capacete_lendario",
+  "look": {
+   "t": "helm",
+   "c1": "#901010",
+   "c2": "#903010"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_tecido",
+  "name": "Capa de Tecido",
+  "slot": "cape",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 0,
+   "mana": 2
+  },
+  "icon": "capa_tecido",
+  "look": {
+   "t": "cape",
+   "c1": "#703030"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_couro",
+  "name": "Capa de Couro",
+  "slot": "cape",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 0,
+   "mana": 2
+  },
+  "icon": "capa_couro",
+  "look": {
+   "t": "cape",
+   "c1": "#103070"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_la",
+  "name": "Capa de Lã",
+  "slot": "cape",
+  "rarity": "comum",
+  "price": 40,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 0,
+   "mana": 3
+  },
+  "icon": "capa_la",
+  "look": {
+   "t": "cape",
+   "c1": "#901030"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_seda",
+  "name": "Capa de Seda",
+  "slot": "cape",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 0,
+   "mana": 3
+  },
+  "icon": "capa_seda",
+  "look": {
+   "t": "cape",
+   "c1": "#501070"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_rara",
+  "name": "Capa Esmeralda",
+  "slot": "cape",
+  "rarity": "raro",
+  "price": 100,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "capa_rara",
+  "look": {
+   "t": "cape",
+   "c1": "#107050"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_epica",
+  "name": "Capa Arcana",
+  "slot": "cape",
+  "rarity": "épico",
+  "price": 300,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 0,
+   "def": 4,
+   "vit": 0,
+   "mana": 8
+  },
+  "icon": "capa_epica",
+  "look": {
+   "t": "cape",
+   "c1": "#503070"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_lendaria",
+  "name": "Manto Dourado",
+  "slot": "cape",
+  "rarity": "lendário",
+  "price": 750,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 0,
+   "def": 6,
+   "vit": 0,
+   "mana": 12
+  },
+  "icon": "capa_lendaria",
+  "look": {
+   "t": "cape",
+   "c1": "#703010"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_couro",
+  "name": "Botas de Couro",
+  "slot": "feet",
+  "rarity": "comum",
+  "price": 20,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 3,
+   "mana": 0
+  },
+  "icon": "botas_couro",
+  "look": {
+   "t": "boots",
+   "c1": "#703030",
+   "c2": "#905030"
+  },
+  "starter": true
+ },
+ {
+  "id": "botas_ferro",
+  "name": "Botas de Ferro",
+  "slot": "feet",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 3,
+   "mana": 0
+  },
+  "icon": "botas_ferro",
+  "look": {
+   "t": "boots",
+   "c1": "#303050",
+   "c2": "#505050"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_aco",
+  "name": "Botas de Aço",
+  "slot": "feet",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 4,
+   "mana": 0
+  },
+  "icon": "botas_aco",
+  "look": {
+   "t": "boots",
+   "c1": "#303050",
+   "c2": "#505070"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_prata",
+  "name": "Botas de Prata",
+  "slot": "feet",
+  "rarity": "comum",
+  "price": 40,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 4,
+   "mana": 0
+  },
+  "icon": "botas_prata",
+  "look": {
+   "t": "boots",
+   "c1": "#703010",
+   "c2": "#905010"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_ouro",
+  "name": "Botas de Ouro",
+  "slot": "feet",
+  "rarity": "comum",
+  "price": 45,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "botas_ouro",
+  "look": {
+   "t": "boots",
+   "c1": "#905030",
+   "c2": "#703010"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_raro",
+  "name": "Botas Safira",
+  "slot": "feet",
+  "rarity": "raro",
+  "price": 80,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 0,
+   "def": 3,
+   "vit": 6,
+   "mana": 0
+  },
+  "icon": "botas_raro",
+  "look": {
+   "t": "boots",
+   "c1": "#103070",
+   "c2": "#105090"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_epico",
+  "name": "Botas Arcanas",
+  "slot": "feet",
+  "rarity": "épico",
+  "price": 240,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "botas_epico",
+  "look": {
+   "t": "boots",
+   "c1": "#501070",
+   "c2": "#501090"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_lendario",
+  "name": "Botas Flamejantes",
+  "slot": "feet",
+  "rarity": "lendário",
+  "price": 600,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 0,
+   "def": 8,
+   "vit": 15,
+   "mana": 0
+  },
+  "icon": "botas_lendario",
+  "look": {
+   "t": "boots",
+   "c1": "#901010",
+   "c2": "#b03010"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_comum",
+  "name": "Colar Simples",
+  "slot": "neck",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 5,
+   "mana": 2
+  },
+  "icon": "colar_comum",
+  "look": {
+   "t": "amulet",
+   "c1": "#905030"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_foco",
+  "name": "Colar do Foco",
+  "slot": "neck",
+  "rarity": "comum",
+  "price": 40,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 6,
+   "mana": 2
+  },
+  "icon": "colar_foco",
+  "look": {
+   "t": "amulet",
+   "c1": "#905030"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_velocidade",
+  "name": "Colar da Velocidade",
+  "slot": "neck",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 6,
+   "mana": 3
+  },
+  "icon": "colar_velocidade",
+  "look": {
+   "t": "amulet",
+   "c1": "#1050b0"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_resistencia",
+  "name": "Colar da Resistência",
+  "slot": "neck",
+  "rarity": "comum",
+  "price": 55,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 7,
+   "mana": 3
+  },
+  "icon": "colar_resistencia",
+  "look": {
+   "t": "amulet",
+   "c1": "#503030"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_raro",
+  "name": "Colar Dourado",
+  "slot": "neck",
+  "rarity": "raro",
+  "price": 120,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 10,
+   "mana": 5
+  },
+  "icon": "colar_raro",
+  "look": {
+   "t": "amulet",
+   "c1": "#703010"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_epico",
+  "name": "Colar Arcano",
+  "slot": "neck",
+  "rarity": "épico",
+  "price": 360,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 15,
+   "mana": 10
+  },
+  "icon": "colar_epico",
+  "look": {
+   "t": "amulet",
+   "c1": "#501070"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_lendario",
+  "name": "Colar Sombrio",
+  "slot": "neck",
+  "rarity": "lendário",
+  "price": 900,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 25,
+   "mana": 15
+  },
+  "icon": "colar_lendario",
+  "look": {
+   "t": "amulet",
+   "c1": "#703010"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_comum",
+  "name": "Anel Simples",
+  "slot": "ring",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 1,
+   "def": 1,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "anel_comum",
+  "look": {
+   "t": "ring",
+   "c1": "#505050"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_foco",
+  "name": "Anel do Foco",
+  "slot": "ring",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 1,
+   "def": 1,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "anel_foco",
+  "look": {
+   "t": "ring",
+   "c1": "#103090"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_vida",
+  "name": "Anel da Vida",
+  "slot": "ring",
+  "rarity": "comum",
+  "price": 40,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 1,
+   "def": 1,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "anel_vida",
+  "look": {
+   "t": "ring",
+   "c1": "#901010"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_defesa",
+  "name": "Anel da Defesa",
+  "slot": "ring",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 1,
+   "def": 1,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "anel_defesa",
+  "look": {
+   "t": "ring",
+   "c1": "#303050"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_raro",
+  "name": "Anel Safira",
+  "slot": "ring",
+  "rarity": "raro",
+  "price": 100,
+  "desc": "Item raro de qualidade superior.",
+  "stats": {
+   "atk": 3,
+   "def": 2,
+   "vit": 3,
+   "mana": 0
+  },
+  "icon": "anel_raro",
+  "look": {
+   "t": "ring",
+   "c1": "#105090"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_epico",
+  "name": "Anel Arcano",
+  "slot": "ring",
+  "rarity": "épico",
+  "price": 300,
+  "desc": "Item épico de grande poder.",
+  "stats": {
+   "atk": 5,
+   "def": 4,
+   "vit": 6,
+   "mana": 0
+  },
+  "icon": "anel_epico",
+  "look": {
+   "t": "ring",
+   "c1": "#501070"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_lendario",
+  "name": "Anel Dourado",
+  "slot": "ring",
+  "rarity": "lendário",
+  "price": 750,
+  "desc": "Relíquia lendária, feita para heróis.",
+  "stats": {
+   "atk": 8,
+   "def": 6,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "anel_lendario",
+  "look": {
+   "t": "ring",
+   "c1": "#703010"
+  },
+  "starter": false
+ },
+ {
+  "id": "pocao_vida",
+  "name": "Poção de Vida",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 10,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_vida",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "pocao_mana",
+  "name": "Poção de Mana",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 15,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_mana",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "pocao_stamina",
+  "name": "Poção de Stamina",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 15,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_stamina",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "pocao_forca",
+  "name": "Poção de Força",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 20,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_forca",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "pocao_defesa",
+  "name": "Poção de Defesa",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 20,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_defesa",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "pocao_velocidade",
+  "name": "Poção de Velocidade",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_velocidade",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "pocao_visao",
+  "name": "Poção de Visão",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_visao",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "pocao_regeneracao",
+  "name": "Poção de Regeneração",
+  "slot": "consumable",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Equipamento comum, bom para começar.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "pocao_regeneracao",
+  "look": {},
+  "starter": false
+ },
+ {
+  "id": "capuz_vigia",
+  "name": "Capuz do Vigia",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Um capuz simples de lã escura.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "capacete_couro",
+  "look": {
+   "t": "hood",
+   "c1": "#3a3a4a",
+   "c2": "#2a2a38"
+  },
+  "starter": true
+ },
+ {
+  "id": "elmo_ferro",
+  "name": "Elmo de Ferro",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Proteção básica das patrulhas.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "capacete_ferro",
+  "look": {
+   "t": "helm",
+   "c1": "#8a90a5",
+   "c2": "#c89b3c"
+  },
+  "starter": true
+ },
+ {
+  "id": "chapeu_bardo",
+  "name": "Chapéu de Bardo",
+  "slot": "head",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Feltro verde com uma pena roxa.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "capacete_couro",
+  "look": {
+   "t": "hat",
+   "c1": "#1f6b43",
+   "c2": "#8a4ac2"
+  },
+  "starter": true
+ },
+ {
+  "id": "capuz_sombrio",
+  "name": "Capuz Sombrio",
+  "slot": "head",
+  "rarity": "raro",
+  "price": 120,
+  "desc": "Tecido em sombras antigas.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "capacete_raro",
+  "look": {
+   "t": "hood",
+   "c1": "#2b2a44",
+   "c2": "#6a3ec2"
+  },
+  "starter": false
+ },
+ {
+  "id": "chapeu_mago",
+  "name": "Chapéu de Mago",
+  "slot": "head",
+  "rarity": "raro",
+  "price": 120,
+  "desc": "Pontudo, bordado com runas.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "capacete_epico",
+  "look": {
+   "t": "hat",
+   "c1": "#4b3a8c",
+   "c2": "#c89b3c"
+  },
+  "starter": false
+ },
+ {
+  "id": "coroa_corvos",
+  "name": "Coroa de Corvos",
+  "slot": "head",
+  "rarity": "épico",
+  "price": 360,
+  "desc": "Forjada em ferro e penas negras.",
+  "stats": {
+   "atk": 0,
+   "def": 8,
+   "vit": 15,
+   "mana": 0
+  },
+  "icon": "capacete_lendario",
+  "look": {
+   "t": "crown",
+   "c1": "#2a2636",
+   "c2": "#8b1e2a"
+  },
+  "starter": false
+ },
+ {
+  "id": "elmo_guardiao",
+  "name": "Elmo do Guardião",
+  "slot": "head",
+  "rarity": "lendário",
+  "price": 900,
+  "desc": "Ouro polido que nunca perde o brilho.",
+  "stats": {
+   "atk": 0,
+   "def": 12,
+   "vit": 25,
+   "mana": 0
+  },
+  "icon": "capacete_ouro",
+  "look": {
+   "t": "helm",
+   "c1": "#c89b3c",
+   "c2": "#f3d178"
+  },
+  "starter": false
+ },
+ {
+  "id": "tunica_simples",
+  "name": "Túnica Simples",
+  "slot": "body",
+  "rarity": "comum",
+  "price": 45,
+  "desc": "Roupa de viajante.",
+  "stats": {
+   "atk": 0,
+   "def": 4,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "armadura_couro",
+  "look": {
+   "t": "tunic",
+   "c1": "#7a6a58",
+   "c2": "#5a4a3a"
+  },
+  "starter": true
+ },
+ {
+  "id": "tunica_couro",
+  "name": "Veste de Couro",
+  "slot": "body",
+  "rarity": "comum",
+  "price": 45,
+  "desc": "Couro curtido e costurado à mão.",
+  "stats": {
+   "atk": 0,
+   "def": 4,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "armadura_couro",
+  "look": {
+   "t": "leather",
+   "c1": "#6b4a2e",
+   "c2": "#3b2416"
+  },
+  "starter": true
+ },
+ {
+  "id": "robe_arcano",
+  "name": "Robe Arcano",
+  "slot": "body",
+  "rarity": "raro",
+  "price": 180,
+  "desc": "Seda azul-violeta com fios de prata.",
+  "stats": {
+   "atk": 0,
+   "def": 8,
+   "vit": 20,
+   "mana": 0
+  },
+  "icon": "armadura_epico",
+  "look": {
+   "t": "robe",
+   "c1": "#4b3a8c",
+   "c2": "#c89b3c"
+  },
+  "starter": false
+ },
+ {
+  "id": "veste_ladino",
+  "name": "Veste do Ladino",
+  "slot": "body",
+  "rarity": "raro",
+  "price": 180,
+  "desc": "Leve, escura e silenciosa.",
+  "stats": {
+   "atk": 0,
+   "def": 8,
+   "vit": 20,
+   "mana": 0
+  },
+  "icon": "armadura_ferro",
+  "look": {
+   "t": "leather",
+   "c1": "#26222f",
+   "c2": "#8b1e2a"
+  },
+  "starter": false
+ },
+ {
+  "id": "armadura_carmesim",
+  "name": "Armadura Carmesim",
+  "slot": "body",
+  "rarity": "épico",
+  "price": 540,
+  "desc": "Placas vermelhas com detalhes dourados.",
+  "stats": {
+   "atk": 0,
+   "def": 12,
+   "vit": 35,
+   "mana": 0
+  },
+  "icon": "armadura_lendario",
+  "look": {
+   "t": "plate",
+   "c1": "#7a1f2a",
+   "c2": "#c89b3c"
+  },
+  "starter": false
+ },
+ {
+  "id": "calca_simples",
+  "name": "Calça Simples",
+  "slot": "legs",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Tecido resistente.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "",
+  "look": {
+   "t": "pants",
+   "c1": "#4a3a2a"
+  },
+  "starter": true
+ },
+ {
+  "id": "calca_couro",
+  "name": "Calça de Couro",
+  "slot": "legs",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Boa para longas jornadas.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 5,
+   "mana": 0
+  },
+  "icon": "",
+  "look": {
+   "t": "pants",
+   "c1": "#5a3a22"
+  },
+  "starter": true
+ },
+ {
+  "id": "calca_escura",
+  "name": "Calça Sombria",
+  "slot": "legs",
+  "rarity": "raro",
+  "price": 100,
+  "desc": "Quase invisível na penumbra.",
+  "stats": {
+   "atk": 0,
+   "def": 4,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "",
+  "look": {
+   "t": "pants",
+   "c1": "#1f1c2a"
+  },
+  "starter": false
+ },
+ {
+  "id": "calca_placas",
+  "name": "Grevas de Placas",
+  "slot": "legs",
+  "rarity": "épico",
+  "price": 300,
+  "desc": "Placas de aço sobre cota de malha.",
+  "stats": {
+   "atk": 0,
+   "def": 7,
+   "vit": 15,
+   "mana": 0
+  },
+  "icon": "",
+  "look": {
+   "t": "pants",
+   "c1": "#6e7488"
+  },
+  "starter": false
+ },
+ {
+  "id": "botas_simples",
+  "name": "Botas Simples",
+  "slot": "feet",
+  "rarity": "comum",
+  "price": 20,
+  "desc": "Solas gastas, mas firmes.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 3,
+   "mana": 0
+  },
+  "icon": "botas_couro",
+  "look": {
+   "t": "boots",
+   "c1": "#2b1d10"
+  },
+  "starter": true
+ },
+ {
+  "id": "botas_runicas",
+  "name": "Botas Rúnicas",
+  "slot": "feet",
+  "rarity": "épico",
+  "price": 240,
+  "desc": "Runas azuis brilham nas solas.",
+  "stats": {
+   "atk": 0,
+   "def": 5,
+   "vit": 10,
+   "mana": 0
+  },
+  "icon": "botas_epico",
+  "look": {
+   "t": "boots",
+   "c1": "#2b2a44",
+   "c2": "#6fb1ff"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_simples",
+  "name": "Capa de Viagem",
+  "slot": "cape",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Protege do frio e da chuva.",
+  "stats": {
+   "atk": 0,
+   "def": 1,
+   "vit": 0,
+   "mana": 2
+  },
+  "icon": "capa_tecido",
+  "look": {
+   "t": "cape",
+   "c1": "#4a3a2a"
+  },
+  "starter": true
+ },
+ {
+  "id": "capa_floresta",
+  "name": "Capa da Floresta",
+  "slot": "cape",
+  "rarity": "raro",
+  "price": 100,
+  "desc": "Tingida com folhas e musgo.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "capa_rara",
+  "look": {
+   "t": "cape",
+   "c1": "#1f6b43"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_sombria",
+  "name": "Capa Sombria",
+  "slot": "cape",
+  "rarity": "raro",
+  "price": 100,
+  "desc": "Cinza como a névoa de Morrowmere.",
+  "stats": {
+   "atk": 0,
+   "def": 2,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "capa_epica",
+  "look": {
+   "t": "cape",
+   "c1": "#26222f"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_carmesim",
+  "name": "Capa Carmesim",
+  "slot": "cape",
+  "rarity": "épico",
+  "price": 300,
+  "desc": "Vermelho profundo, bordas douradas.",
+  "stats": {
+   "atk": 0,
+   "def": 4,
+   "vit": 0,
+   "mana": 8
+  },
+  "icon": "capa_la",
+  "look": {
+   "t": "cape",
+   "c1": "#8b1e2a"
+  },
+  "starter": false
+ },
+ {
+  "id": "capa_dourada",
+  "name": "Manto Dourado",
+  "slot": "cape",
+  "rarity": "lendário",
+  "price": 750,
+  "desc": "Tecido com fios de ouro puro.",
+  "stats": {
+   "atk": 0,
+   "def": 6,
+   "vit": 0,
+   "mana": 12
+  },
+  "icon": "capa_lendaria",
+  "look": {
+   "t": "cape",
+   "c1": "#c89b3c"
+  },
+  "starter": false
+ },
+ {
+  "id": "cajado_aprendiz",
+  "name": "Cajado de Aprendiz",
+  "slot": "weapon",
+  "rarity": "comum",
+  "price": 50,
+  "desc": "Madeira polida com uma pedra clara.",
+  "stats": {
+   "atk": 5,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "lanca_ferro",
+  "look": {
+   "t": "staff",
+   "c1": "#8a5a32",
+   "c2": "#9fe0ff"
+  },
+  "starter": true
+ },
+ {
+  "id": "espada_longa",
+  "name": "Espada Longa",
+  "slot": "weapon",
+  "rarity": "raro",
+  "price": 200,
+  "desc": "Uma lâmina confiável para qualquer jornada.",
+  "stats": {
+   "atk": 10,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "espada_prata",
+  "look": {
+   "t": "sword",
+   "c1": "#dfe6f5",
+   "c2": "#c89b3c"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_batalha",
+  "name": "Machado de Batalha",
+  "slot": "weapon",
+  "rarity": "raro",
+  "price": 200,
+  "desc": "Pesado e brutal.",
+  "stats": {
+   "atk": 10,
+   "def": 0,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "machado_aco",
+  "look": {
+   "t": "axe",
+   "c1": "#9aa0b5",
+   "c2": "#6b4426"
+  },
+  "starter": false
+ },
+ {
+  "id": "espada_negra",
+  "name": "Espada de Aço Negro",
+  "slot": "weapon",
+  "rarity": "épico",
+  "price": 600,
+  "desc": "Runas roxas pulsam na lâmina.",
+  "stats": {
+   "atk": 15,
+   "def": 0,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "espada_epica",
+  "look": {
+   "t": "sword",
+   "c1": "#3a3a4a",
+   "c2": "#b78cff"
+  },
+  "starter": false
+ },
+ {
+  "id": "cajado_runico",
+  "name": "Cajado Rúnico",
+  "slot": "weapon",
+  "rarity": "épico",
+  "price": 600,
+  "desc": "Uma esfera arcana flutua no topo.",
+  "stats": {
+   "atk": 15,
+   "def": 0,
+   "vit": 0,
+   "mana": 5
+  },
+  "icon": "lanca_epico",
+  "look": {
+   "t": "staff",
+   "c1": "#4b3a8c",
+   "c2": "#b78cff"
+  },
+  "starter": false
+ },
+ {
+  "id": "machado_dourado",
+  "name": "Machado Dourado",
+  "slot": "weapon",
+  "rarity": "lendário",
+  "price": 1500,
+  "desc": "Forjado para reis guerreiros.",
+  "stats": {
+   "atk": 25,
+   "def": 0,
+   "vit": 5,
+   "mana": 10
+  },
+  "icon": "machado_ouro",
+  "look": {
+   "t": "axe",
+   "c1": "#f3d178",
+   "c2": "#8a5a32"
+  },
+  "starter": false
+ },
+ {
+  "id": "escudo_guardiao",
+  "name": "Escudo do Guardião",
+  "slot": "offhand",
+  "rarity": "lendário",
+  "price": 1200,
+  "desc": "Brasão dourado do reino.",
+  "stats": {
+   "atk": 0,
+   "def": 25,
+   "vit": 15,
+   "mana": 0
+  },
+  "icon": "escudo_lendario",
+  "look": {
+   "t": "shield",
+   "c1": "#c89b3c",
+   "c2": "#8b1e2a"
+  },
+  "starter": false
+ },
+ {
+  "id": "amuleto_bronze",
+  "name": "Amuleto de Bronze",
+  "slot": "neck",
+  "rarity": "comum",
+  "price": 30,
+  "desc": "Um pequeno talismã.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 5,
+   "mana": 2
+  },
+  "icon": "colar_comum",
+  "look": {
+   "t": "amulet",
+   "c1": "#b87333"
+  },
+  "starter": true
+ },
+ {
+  "id": "amuleto_safira",
+  "name": "Amuleto de Safira",
+  "slot": "neck",
+  "rarity": "raro",
+  "price": 120,
+  "desc": "Uma pedra azul profunda.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 10,
+   "mana": 5
+  },
+  "icon": "colar_velocidade",
+  "look": {
+   "t": "amulet",
+   "c1": "#3f7fe0"
+  },
+  "starter": false
+ },
+ {
+  "id": "colar_rubi",
+  "name": "Colar de Rubi",
+  "slot": "neck",
+  "rarity": "épico",
+  "price": 360,
+  "desc": "Brilha como brasa.",
+  "stats": {
+   "atk": 0,
+   "def": 0,
+   "vit": 15,
+   "mana": 10
+  },
+  "icon": "colar_epico",
+  "look": {
+   "t": "amulet",
+   "c1": "#d6283c"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_cobre",
+  "name": "Anel de Cobre",
+  "slot": "ring",
+  "rarity": "comum",
+  "price": 25,
+  "desc": "Simples e discreto.",
+  "stats": {
+   "atk": 1,
+   "def": 1,
+   "vit": 0,
+   "mana": 0
+  },
+  "icon": "anel_comum",
+  "look": {
+   "t": "ring",
+   "c1": "#b87333"
+  },
+  "starter": true
+ },
+ {
+  "id": "anel_protecao",
+  "name": "Anel de Proteção",
+  "slot": "ring",
+  "rarity": "raro",
+  "price": 100,
+  "desc": "Dizem que desvia flechas.",
+  "stats": {
+   "atk": 3,
+   "def": 2,
+   "vit": 3,
+   "mana": 0
+  },
+  "icon": "anel_defesa",
+  "look": {
+   "t": "ring",
+   "c1": "#f3d178"
+  },
+  "starter": false
+ },
+ {
+  "id": "anel_sombrio",
+  "name": "Anel Sombrio",
+  "slot": "ring",
+  "rarity": "épico",
+  "price": 300,
+  "desc": "Pulsa com luz roxa.",
+  "stats": {
+   "atk": 5,
+   "def": 4,
+   "vit": 6,
+   "mana": 0
+  },
+  "icon": "anel_epico",
+  "look": {
+   "t": "ring",
+   "c1": "#9b59f0"
+  },
+  "starter": false
+ }
+]
