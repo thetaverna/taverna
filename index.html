@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taverna dos Sinos Mudos</title>
+  <meta name="description" content="RPG social medieval em pixel art — Taverna dos Sinos Mudos">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Press+Start+2P&family=VT323&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- TOP BAR -->
+    <header class="topbar">
+      <div class="brand">
+        <img src="assets/icons/bell.png" alt="Sino" class="brand-bell">
+        <div class="brand-text">
+          <span class="brand-title">Taverna dos</span>
+          <span class="brand-title gold">Sinos Mudos</span>
+        </div>
+      </div>
+
+      <nav class="main-nav" id="mainNav">
+        <button class="nav-btn active" data-view="inicio">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+          Início
+        </button>
+        <button class="nav-btn" data-view="inventario">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20 6h-2.18c.11-.31.18-.65.18-1a2.996 2.996 0 0 0-5.5-1.65l-.5.67-.5-.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2z"/></svg>
+          Inventário
+        </button>
+        <button class="nav-btn" data-view="personagem">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+          Personagem
+        </button>
+        <button class="nav-btn" data-view="banco">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M11.5 1L2 6v2h19V6l-9.5-5zm5 8.5c0 1.38-1.12 2.5-2.5 2.5S11.5 10.88 11.5 9.5 12.62 7 14 7s2.5 1.12 2.5 2.5zM4 10v9h3v-6h2v6h3v-6h2v6h3v-9H4z"/></svg>
+          Banco
+        </button>
+        <button class="nav-btn" data-view="multiplayer">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+          Multiplayer
+        </button>
+        <button class="nav-btn" data-view="loja">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1.003 1.003 0 0 0 20 4H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+          Loja
+        </button>
+      </nav>
+
+      <div class="user-area">
+        <div class="user-chip">
+          <img id="userAvatar" src="assets/sprites/avatar1.png" alt="Avatar" class="user-av">
+          <div class="user-meta">
+            <span id="userName" class="user-name">zarturzin_rpg</span>
+            <span class="user-status"><i class="dot online"></i> Online</span>
+          </div>
+        </div>
+        <button class="icon-btn" id="btnSettings" title="Configurações">⚙</button>
+        <button class="icon-btn" id="btnLogout" title="Sair">⎋</button>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-layout">
+      <!-- LEFT: Character panel -->
+      <aside class="panel left-panel">
+        <div class="char-header">
+          <img id="charPortrait" src="assets/sprites/guerreiro.png" alt="Personagem" class="char-portrait">
+          <div class="char-info">
+            <h2 id="charName">zarturzin_rpg</h2>
+            <div class="char-level">Nível <span id="charLevel">1</span></div>
+            <div class="char-class"><span class="icon-sword">⚔</span> Classe: <b id="charClass">Guerreiro</b></div>
+            <div class="char-guild"><span class="icon-shield">🛡</span> Guilda: <b id="charGuild">Nenhuma</b></div>
+          </div>
+        </div>
+
+        <div class="bars">
+          <div class="bar-row">
+            <span class="bar-icon hp">♥</span>
+            <span class="bar-label">Vida</span>
+            <div class="bar-track"><div class="bar-fill hp" id="hpBar" style="width:100%"></div></div>
+            <span class="bar-val" id="hpVal">100/100</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-icon energy">⚡</span>
+            <span class="bar-label">Energia</span>
+            <div class="bar-track"><div class="bar-fill energy" id="energyBar" style="width:100%"></div></div>
+            <span class="bar-val" id="energyVal">100/100</span>
+          </div>
+        </div>
+
+        <div class="combat-stats">
+          <div class="cstat"><span class="cstat-icon">⚔</span> Ataque <b id="statAtk">12</b></div>
+          <div class="cstat"><span class="cstat-icon">🛡</span> Defesa <b id="statDef">8</b></div>
+          <div class="cstat"><span class="cstat-icon">💨</span> Velocidade <b id="statSpd">6</b></div>
+        </div>
+
+        <div class="attrs">
+          <h3>Atributos</h3>
+          <div class="attr-grid">
+            <div class="attr"><span class="attr-icon str">💪</span> Força <b id="attrStr">10</b></div>
+            <div class="attr"><span class="attr-icon agi">🪶</span> Agilidade <b id="attrAgi">8</b></div>
+            <div class="attr"><span class="attr-icon vit">❤️</span> Vitalidade <b id="attrVit">10</b></div>
+            <div class="attr"><span class="attr-icon int">📖</span> Inteligência <b id="attrInt">5</b></div>
+            <div class="attr"><span class="attr-icon luk">🍀</span> Sorte <b id="attrLuk">5</b></div>
+          </div>
+        </div>
+
+        <div class="left-tabs">
+          <button class="ltab active" data-ltab="geral">Geral</button>
+          <button class="ltab" data-ltab="guilda">Guilda</button>
+          <button class="ltab" data-ltab="grupo">Grupo</button>
+          <button class="ltab" data-ltab="sistema">Sistema</button>
+        </div>
+
+        <div class="chat-log" id="chatLog">
+          <div class="chat-line system">[Sistema] Bem-vindo à Taverna dos Sinos Mudos!</div>
+          <div class="chat-line global"><span class="ch-tag">[Global]</span> <b>Player123</b>: alguém para missão?</div>
+          <div class="chat-line global"><span class="ch-tag">[Global]</span> <b>DarkSoul</b>: bora no boss?</div>
+          <div class="chat-line global"><span class="ch-tag">[Global]</span> <b>LoboSolitario</b>: preciso de grupo, sou lvl 3</div>
+          <div class="chat-line global"><span class="ch-tag">[Global]</span> <b>zarturzin_rpg</b>: salve galera!</div>
+        </div>
+
+        <div class="chat-input-row">
+          <input type="text" id="chatInput" maxlength="140" placeholder="Digite sua mensagem...">
+          <button class="btn-send" id="chatSend">Enviar</button>
+        </div>
+      </aside>
+
+      <!-- CENTER: Tavern scene -->
+      <section class="center-scene">
+        <div class="scene-frame" id="sceneFrame">
+          <div class="scene-bg"></div>
+
+          <div class="npc taverneiro" id="npcTaverneiro">
+            <img src="assets/sprites/clerigo.png" alt="Taverneiro">
+            <div class="speech-bubble">
+              Bem-vindo, aventureiro!<br>Você parece pronto para<br>grandes desafios.
+            </div>
+            <span class="npc-label">Taverneiro</span>
+          </div>
+
+          <div class="npc mensageiro" id="npcMensageiro">
+            <img src="assets/sprites/ladino.png" alt="Mensageiro">
+            <div class="speech-bubble small">!</div>
+            <span class="npc-label">Mensageiro</span>
+          </div>
+
+          <div class="player-char" id="playerChar">
+            <img src="assets/sprites/guerreiro.png" alt="Você" id="playerSprite">
+          </div>
+
+          <img src="assets/sprites/mesa.png" class="prop mesa1" alt="">
+          <img src="assets/sprites/mesa.png" class="prop mesa2" alt="">
+          <img src="assets/sprites/barril1.png" class="prop barril1" alt="">
+          <img src="assets/sprites/tocha.png" class="prop tocha1" alt="">
+          <img src="assets/sprites/tocha.png" class="prop tocha2" alt="">
+          <img src="assets/sprites/lanterna.png" class="prop lanterna1" alt="">
+        </div>
+
+        <div class="skill-bar" id="skillBar">
+          <button class="skill-slot" data-skill="1" title="Golpe Poderoso"><img src="assets/icons/i_sword.png" alt=""></button>
+          <button class="skill-slot" data-skill="2" title="Escudo"><img src="assets/icons/i_chest.png" alt=""></button>
+          <button class="skill-slot" data-skill="3" title="Poção"><img src="assets/icons/i_potion.png" alt=""></button>
+          <button class="skill-slot" data-skill="4" title="Magia"><img src="assets/icons/i_star.png" alt=""></button>
+          <button class="skill-slot" data-skill="5" title="Especial"><img src="assets/icons/i_diamond.png" alt=""></button>
+          <button class="skill-slot" data-skill="6" title="Buff"><img src="assets/icons/i_heart.png" alt=""></button>
+        </div>
+      </section>
+
+      <!-- RIGHT panels -->
+      <aside class="panel right-panel">
+        <div class="subpanel inv-panel">
+          <div class="subpanel-head">
+            <span class="subpanel-icon">🎒</span>
+            <h3>Inventário</h3>
+          </div>
+          <div class="inv-cats" id="invCats">
+            <button class="cat-btn active" data-cat="all" title="Todos">📦</button>
+            <button class="cat-btn" data-cat="weapon" title="Armas">⚔</button>
+            <button class="cat-btn" data-cat="armor" title="Armaduras">🛡</button>
+            <button class="cat-btn" data-cat="accessory" title="Acessórios">💍</button>
+            <button class="cat-btn" data-cat="consumable" title="Consumíveis">🧪</button>
+          </div>
+          <div class="inv-grid" id="invGrid"></div>
+          <div class="inv-footer">
+            <span class="gold"><img src="assets/icons/i_coin.png" alt=""> <b id="goldAmount">0</b></span>
+            <button class="btn-sm" id="btnOrganize">Organizar</button>
+          </div>
+        </div>
+
+        <div class="subpanel equip-panel">
+          <div class="subpanel-head">
+            <span class="subpanel-icon">⚔</span>
+            <h3>Equipamento</h3>
+          </div>
+          <div class="paperdoll" id="paperdoll">
+            <div class="eq-slot helmet" data-slot="helmet" title="Capacete"></div>
+            <div class="eq-slot necklace" data-slot="necklace" title="Colar"></div>
+            <div class="eq-slot weapon" data-slot="weapon" title="Arma"></div>
+            <div class="eq-slot armor" data-slot="armor" title="Armadura"></div>
+            <div class="eq-slot offhand" data-slot="offhand" title="Escudo"></div>
+            <div class="eq-slot gloves" data-slot="gloves" title="Luvas"></div>
+            <div class="eq-slot ring1" data-slot="ring1" title="Anel"></div>
+            <div class="eq-slot boots" data-slot="boots" title="Botas"></div>
+            <div class="eq-slot ring2" data-slot="ring2" title="Anel"></div>
+            <div class="eq-slot cape" data-slot="cape" title="Capa"></div>
+            <div class="doll-char">
+              <img id="dollSprite" src="assets/sprites/guerreiro.png" alt="Equipado">
+            </div>
+          </div>
+        </div>
+
+        <div class="subpanel custom-panel">
+          <div class="subpanel-head">
+            <span class="subpanel-icon">🎨</span>
+            <h3>Personalização</h3>
+          </div>
+          <div class="face-row" id="faceRow">
+            <button class="face-opt active" data-face="1"><img src="assets/sprites/avatar1.png" alt=""></button>
+            <button class="face-opt" data-face="2"><img src="assets/sprites/avatar2.png" alt=""></button>
+            <button class="face-opt" data-face="3"><img src="assets/sprites/avatar3.png" alt=""></button>
+            <button class="face-opt" data-face="4"><img src="assets/sprites/avatar4.png" alt=""></button>
+            <button class="face-opt" data-face="5"><img src="assets/sprites/avatar5.png" alt=""></button>
+          </div>
+          <div class="skin-row" id="skinRow">
+            <button class="skin-swatch active" data-skin="#f5d0b0" style="background:#f5d0b0"></button>
+            <button class="skin-swatch" data-skin="#e8b88a" style="background:#e8b88a"></button>
+            <button class="skin-swatch" data-skin="#c68642" style="background:#c68642"></button>
+            <button class="skin-swatch" data-skin="#8d5524" style="background:#8d5524"></button>
+            <button class="skin-swatch" data-skin="#5c3a1e" style="background:#5c3a1e"></button>
+            <button class="skin-swatch" data-skin="#3b2314" style="background:#3b2314"></button>
+          </div>
+        </div>
+
+        <div class="subpanel mission-panel">
+          <div class="subpanel-head">
+            <span class="subpanel-icon">❗</span>
+            <h3>Missão Atual</h3>
+          </div>
+          <div class="mission-body">
+            <div class="mission-title">O Chamado da Taverna</div>
+            <p>Fale com o Taverneiro e descubra mais sobre o seu passado.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="app-footer">
+      <span>Taverna dos Sinos Mudos © 2025 | Jogue, converse e construa sua história.</span>
+      <span class="mp-badge">👥 Multiplayer Online</span>
+    </footer>
+  </div>
+
+  <div id="toast" role="status"></div>
+  <div id="tooltip" class="tooltip" hidden></div>
+
+  <script src="items.js"></script>
+  <script src="character.js"></script>
+  <script src="api.js"></script>
+  <script src="realtime.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
